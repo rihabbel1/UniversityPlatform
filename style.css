@@ -110,5 +110,46 @@ box-sizing:border-box;
 padding-left:10px;
 padding-right:10px;
 } 
+.box:hover{
+	box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+/* campus**************************************************** */
+#campus{
+padding-top:100px;
+
+}
+#campus h1{
+font-size:36px;
+font-weight:600;
+}
+#campus p{
+font-size:14px;
+}	
+.campus-col{
+	flex-basis:32%;
+    /* border-radius:10px; */
+    margin-bottom:30px;
+	position:relative;
+    overflow:hidden;
+	display:block;
+   
+}
+.campus-col img{
+	width:100%;
+	 border-radius:10px;
+   }
+.layer h3{
+	width:100%;
+	font-weight:500;
+	color:#fff;
+	font-size:26px;
+	bottom:0;
+	left:50%;
+	transform: translateX(-50%);
+	position:absolute;
 	
-	
+}
+
+	bottom:49%;
+	opacity:1;
+}
