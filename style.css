@@ -59,11 +59,11 @@ text-align:left;
 #navbarNav ul li a:hover::after{
     width:100%;
 }	
-.fa-bars{
-	color:#fff !important;
-	padding-right:30px !important;
+/* .fa-bars{ */
+	/* color:#fff !important; */
+	/* padding-right:30px !important; */
 	
-}
+/* } */
 .btn-visit{
 display:inline-block;
 text-decoration:none;
@@ -234,5 +234,44 @@ font-size:14px;
 	margin-top:20px;
 	font-weight:600;
 }
-	
-	
+	/* about page ************************************************************/
+
+#about-PG{
+	height:  50vh;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/banner.png);
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	color:#fff;
+}
+.txtPG h2{
+	margin-top:70px;
+}
+.about-us{
+	width:80%;
+	margin:auto;
+	padding-top:80px;
+	padding-bottom:50px;
+}
+.about-col{
+	flex-basis:48%;
+	padding-left: 70px;
+}
+.about-col img{
+	width:100%;
+	padding-right:20px;
+}
+.about-col h1{
+	padding-top:0;
+}
+.about-col p{
+	/* padding: 15px 0 25px; */
+}
+.re-btn{
+	border:1px solid #f44336;
+	background:transparent;
+	color: #f44336;
+}
+.re-btn :hover{
+	color:#fff;
+}
